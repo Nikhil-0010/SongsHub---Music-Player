@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+    <link rel="shortcut icon" href="resources/svg/icons8-dj-gradients-favicons/Web/icons8-dj-gradients-32.png" type="image/x-icon">
+    <title>SongsHub - Music Player</title>
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left justify-center">
+        <div class="close">
+          <img src="resources/svg/close.svg" alt="">
+        </div>
+        <div class="home bg-blackShade-1 rounded p-1">
+          <div class="logo">
+            <img src="resources/svg/logo.svg" alt />
+          </div>
+          <ul>
+            <li class="flex align-center">
+              <img src="resources/svg/home.svg" alt="home" />
+              <span>Home</span>
+            </li>
+            <li class="flex align-center">
+              <img
+                src="resources/svg/search.svg"
+                alt="search"
+              /><span>Search</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="library bg-blackShade-1 rounded p-1">
+          <div class="lib-heading flex align-center">
+            <img src="resources/svg/playlist.svg" alt="" />
+            <span>Your Library</span>
+          </div>
+          <div class="songList">
+            <ul>
+              <!-- <li>
+                            <img src="resources/svg/music.svg" alt="">
+                            <div class="info">
+                                <div>Song name</div>
+                                <div>Song Artist</div>
+                            </div>
+                            <div class="playNow flex justify-center align-center">
+                                <img src="resources/svg/play.svg" alt="">
+                            </div>
+                        </li> -->
+            </ul>
+          </div>
+          <div class="footer flex">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/"
+                ><span>Legal</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                ><span>Safety &amp; Privacy Center</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                ><span>Privacy Policy</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                ><span>Cookies</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                ><span>About Ads</span></a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/"
+                ><span>Accessibility</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right rounded bg-blackShade-3 justify-center">
+        <div class="header flex align-center bg-blackShade-2">
+          <div class="nav flex justify-center align-center">
+            <img class="hamburger" src="resources/svg/hamburger.svg" alt="">
+            <button>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                  stroke="#a0a0a0"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+            <button>
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                  stroke="#a0a0a0"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div class="buttons flex">
+            <button class="signupBtn">Sign up</button>
+            <button class="loginBtn">Log in</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylists">
+          <div class="spotifyPlaylists-title flex align-center">
+            <h2>Spotify Playlists</h2>
+            <img src="resources/svg/bulb-off-2.svg" alt="" id="mode">
+          </div>
+          <div class="cardContainer flex">
+            <!-- <div data-folder="Melody" class="card rounded">
+              <div data-folder="Melody" class="play flex justify-center align-center">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <img
+                class="rounded"
+                src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d"
+                alt=""
+              />
+              <h3>Chillout Lounge</h3>
+              <p>Just lean back and enjoy relaxed beats.</p>
+            </div>
+            <div data-folder="Old_Melody" class="card rounded">
+              <div data-folder="Old_Melody" class="play flex justify-center align-center">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 20V4L19 12L5 20Z"
+                    stroke="#141B34"
+                    fill="#000"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+              </div>
+              <img
+                class="rounded"
+                src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"
+                alt=""
+              />
+              <h3>lofi beats</h3>
+              <p>chill beats, lofi vibes, new tracks every week...</p>
+            </div> -->
+          </div>
+          <div class="playbar">
+            <div class="songdata flex">
+              <div class="songinfo"></div>
+              <div class="songbuttons flex justify-center">
+                <img src="resources/svg/loop.svg" alt="" id="loop">
+                <img id="previous" src="resources/svg/prevsong.svg" alt="" />
+                <img id="play" src="resources/svg/play.svg" alt="" />
+                <img id="next" src="resources/svg/nextsong.svg" alt="" />
+                <img src="resources/svg/shuffle-duo.svg" alt="" id="shuffle">
+              </div>
+              <div class="timevol flex align-center">
+                <div class="songtime"></div>
+                <div class="volume flex justify-center align-center">
+                  <img src="resources/svg/volume.svg" alt="">
+                  <div class="range">
+                    <input type="range" name="volume" id="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="seekbar">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

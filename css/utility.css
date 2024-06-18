@@ -1,0 +1,85 @@
+:root{
+    --t-colr-main: white;
+    --t-colr-signup:#a7a7a7;
+    --t-colr-lnk-a:grey;
+    --bg-colr-b: black;
+    --bg-colr-b1: #121212;
+    --bg-colr-b2: #101010;
+    --bg-colr-b3: #1e1e1e;
+    --bg-colr-b4-hvr: #252525;
+    --bg-colr-b5-playbar: #1d2626;
+    --bg-colr-w-hvr: #f6f6f6;
+}
+
+.util-light{
+    --t-colr-main:black;
+    --t-colr-signup:#585858;
+    --t-colr-lnk-a:#7f7f7f;
+    --bg-colr-b: white;
+    --bg-colr-b1: #ededed;
+    --bg-colr-b2: #efefef;
+    --bg-colr-b3: #e1e1e1;
+    --bg-colr-b4-hvr: #dadada;
+    --bg-colr-b5-playbar: #e2d9d9;
+    --bg-colr-w-hvr: #090909;
+}
+
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: var(--bg-colr-b);
+    color: var(--t-colr-main);
+}
+
+.invert{
+    filter: invert(1);
+}
+.invert-green{
+    filter: invert(41%) sepia(87%) saturate(1025%) hue-rotate(103deg) brightness(98%) contrast(98%);
+}
+
+.bg-blackShade-1{
+    background-color: var(--bg-colr-b1);
+    color: var(--t-colr-main);
+}
+
+.bg-blackShade-2{
+    background-color: var(--bg-colr-b2);
+    color: var(--t-colr-main);
+}
+
+.bg-blackShade-3{
+    background-color: var(--bg-colr-b3);
+    color: var(--t-colr-main);
+}
+
+.color-grey{
+    color: #b3b3b3;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 24px;
+}
