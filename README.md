@@ -1,5 +1,3 @@
-**You can view live site on** - https://songshub.freewebhostmost.com/ .
-
 The site is fully responsive. It takes inspiration from famous online music player Spotify.
 
 It has functionalities like 
